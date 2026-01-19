@@ -19,14 +19,12 @@
     tilesize = 32;
 
     persistent-apps = [
+      { app = "/Applications/Google Chrome.app"; }
       { app = "/Applications/Brave Browser.app"; }
-      { app = "/Applications/Dia.app"; }
-      { app = "/Applications/Rider.app"; }
       { app = "/Applications/Visual Studio Code.app"; }
+      { app = "/Applications/GoLand.app"; }
       { app = "/Applications/iTerm.app"; }
       { app = "/Applications/Slack.app"; }
-      { app = "/Applications/Telegram.app"; }
-      { app = "/Applications/Discord.app"; }
     ];
 
     persistent-others = [ "/Applications" "${user.home}/Downloads" ];

@@ -36,20 +36,20 @@
     
     # User configuration - define your user details here
     user = {
-      name        = "alexey";
-      fullName    = "Alexey Raga";
-      email       = "alexey.raga@gmail.com";  # Replace with your actual email
-      home        = "/Users/alexey";
+      name        = "rohill";
+      fullName    = "Rohill Nand";
+      email       = "rohill.nand@educationperfect.com";  # Replace with your actual email
+      home        = "/Users/rohill";
       shell       = "zsh";
-      hostname    = "Alexeys-MacBook-Pro";  # System hostname for nix-darwin
+      hostname    = "EP-LTC2MWJWQW";  # System hostname for nix-darwin
       
       # Git-specific configurations
-      githubUser  = "AlexeyRaga";
+      githubUser  = "Rohill-EP";
       gitWorkspaces = {
         "src/ep" = {
           user = {
-            email = "alexey.raga@educationperfect.com";
-            name = "AlexeyRaga";
+            email = "rohill.nand@educationperfect.com";
+            name = "Rohill";
           };
           core = { autocrlf = "input"; };
         };
@@ -75,6 +75,7 @@
           home-manager.useUserPackages = true;
           home-manager.users.${user.name} = ./home;
           home-manager.extraSpecialArgs = { inherit inputs user; };
+          home-manager.backupFileExtension = "backup";
         }
       ];
     };

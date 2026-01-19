@@ -7,50 +7,50 @@
 
   home.packages = with pkgs; [
     devenv
-    nufmt # Nushell formatter
+    # nufmt # Nushell formatter
 
     tree
 
-    clang
+    # clang
 
-    delta # diff stuff, https://github.com/dandavison/delta
-    difftastic # A structural diff that understands syntax.
-    diff-so-fancy # better diff
+    # delta # diff stuff, https://github.com/dandavison/delta
+    # difftastic # A structural diff that understands syntax.
+    # diff-so-fancy # better diff
 
-    aria2 # multiprotocol downloader: HTTP/HTTPS/FTP/SFTP/BitTorrent/Metalink
+    # aria2 # multiprotocol downloader: HTTP/HTTPS/FTP/SFTP/BitTorrent/Metalink
     curl
     wget
     # curlie
     # httpie # HTTP requests tool, Python
-    xh # Friendly and fast tool for sending HTTP requests, written in Rust
+    # xh # Friendly and fast tool for sending HTTP requests, written in Rust
 
     docker
-    docker-credential-helpers
+    # docker-credential-helpers
     lazydocker
-    dive # docker images exploration, https://github.com/wagoodman/dive
+    # dive # docker images exploration, https://github.com/wagoodman/dive
 
     duf # better df
     gdu # better du
     fd # better find
 
-    moreutils
+    # moreutils
     # procs # better ps
     ripgrep # better grep
-    ack # find in files, grep-ish, https://linux.die.net/man/1/ack
+    # ack # find in files, grep-ish, https://linux.die.net/man/1/ack
 
-    watch
+    # watch
 
-    jqp # jq playground, https://github.com/noahgorstein/jqp
-    fx # Terminal JSON viewer & processor, https://fx.wtf/
-    duckdb # https://duckdb.org/ SQL to CSV, TSV and many APIs
+    # jqp # jq playground, https://github.com/noahgorstein/jqp
+    # fx # Terminal JSON viewer & processor, https://fx.wtf/
+    # duckdb # https://duckdb.org/ SQL to CSV, TSV and many APIs
 
-    scc # better cloc - code stats
+    # scc # better cloc - code stats
 
-    hyperfine # benchmark command
+    # hyperfine # benchmark command
 
-    mediainfo
-    libmediainfo
+    # mediainfo
+    # libmediainfo
 
-    yt-dlp
+    # yt-dlp
   ];
 }
